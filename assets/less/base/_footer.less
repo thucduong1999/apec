@@ -1,0 +1,78 @@
+#footer {
+    .footer {
+        &-top {
+            background-color: #EAACAD;
+            &-inner {
+                display: flex;
+                color: #0C3050;
+                padding: 30px 0;
+                .item {
+                    font-weight: 700;
+                    .col(4);
+                    .name {
+                        font-size: 16px;
+                        margin-right: -10px;
+                        padding-bottom: 15px;
+                        padding-top: 45px;
+                        text-transform: uppercase;
+                    }
+                    .descript {
+                        font-size: 14px;
+                        letter-spacing: 0.01em;
+                    }
+                    .social {
+                        padding-top: 20px;
+                        img {
+                            padding-right: 20px;
+                        }
+                    }
+                    form {
+                        display: flex;
+                        .email-input {
+                            padding: 14px;
+                            background-color: #fff;
+                            border-radius: 10px 0 0 10px;
+                        }
+                        input {
+                            border: none;
+                            outline: none;
+                            font-family: 'Gilroy';
+                            line-height: 30px;
+                            color: #000;
+                            padding-right: 50px;
+                        }
+                        .email-btn {
+                            padding: 20px;
+                            background-color: #0C3050;
+                            border-radius: 0 10px 10px 0;
+                        }
+                        button {
+                            background-color: #0C3050;
+                            border: none;
+                            color: #fff;
+                            font-family: 'Gilroy';
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+        &-bot {
+            background-color: #CF585E;
+            &-inner {
+                padding: 40px 0;
+                .flex();
+                .left {
+                    font-size: 16px;
+                    color: #fff;
+                    font-weight: 700;
+                }
+                .right {
+                    img {
+                        margin-left: 45px;
+                    }
+                }
+            }
+        }
+    }
+}

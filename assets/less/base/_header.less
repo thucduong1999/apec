@@ -1,0 +1,47 @@
+// Menu Bar
+.menu-bar {
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: @main-color;
+    &-inner {
+        padding: 25px 0;
+        .flex();
+        nav {
+            .navbar {
+                margin-left: 140px;
+                li {
+                    display: inline-block;
+                    margin-left: 27px;
+                    margin-right: 28px;
+                    a {
+                        color: @main-color;
+                        text-decoration: none;
+                        transition: all 0.3s;
+                        &:hover {
+                            color: #EAACAD;
+                        }
+                    }
+                    .apply {
+                        width: 132px;
+                        height: 40px;
+                        background-color: @main-color;
+                        line-height: 40px;
+                        text-align: center;
+                        border-radius: 40px;
+                        transition: all 0.3s;
+                        a {
+                            color: #fff;
+                        }
+                        &:hover {
+                            background-color: #EAACAD;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
